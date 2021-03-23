@@ -8,20 +8,23 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import { HistoriqueComponent } from './historique/historique.component';
+import {MatTableModule} from '@angular/material/table';
 
 
 
 @NgModule({
-  declarations: [EvenementComponent, LoginComponent],
-  imports: [
-    CommonModule,
-    MatCardModule,
-    FormsModule,
-    MatFormFieldModule,
-    MatIconModule,
-    ReactiveFormsModule,
-    MatInputModule,
-    MatButtonModule
-  ]
+  declarations: [EvenementComponent, LoginComponent, HistoriqueComponent],
+    imports: [
+        CommonModule,
+        MatCardModule,
+        FormsModule,
+        MatFormFieldModule,
+        MatIconModule,
+        ReactiveFormsModule,
+        MatInputModule,
+        MatButtonModule,
+        MatTableModule
+    ]
 })
 export class JournalModule { }
