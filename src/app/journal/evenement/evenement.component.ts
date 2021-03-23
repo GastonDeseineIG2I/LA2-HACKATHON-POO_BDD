@@ -16,6 +16,9 @@ export class EvenementComponent implements OnInit {
 
   constructor() { }
 
+  getCategorie(): void{
+
+  }
   ngOnInit(): void {
   }
 
