@@ -10,21 +10,23 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import { HistoriqueComponent } from './historique/historique.component';
 import {MatTableModule} from '@angular/material/table';
+import {MatSelectModule} from '@angular/material/select';
 
 
 
 @NgModule({
   declarations: [EvenementComponent, LoginComponent, HistoriqueComponent],
-    imports: [
-        CommonModule,
-        MatCardModule,
-        FormsModule,
-        MatFormFieldModule,
-        MatIconModule,
-        ReactiveFormsModule,
-        MatInputModule,
-        MatButtonModule,
-        MatTableModule
-    ]
+  imports: [
+    CommonModule,
+    MatCardModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatIconModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatButtonModule,
+    MatTableModule,
+    MatSelectModule
+  ]
 })
 export class JournalModule { }

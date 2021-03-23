@@ -4,6 +4,42 @@
   </mat-card-header>
   <hr><br>
   <mat-card-content>
-
   </mat-card-content>
 </mat-card>
+
+<div class ="center">
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Date</mat-label>
+      <input matInput placeholder="date DD-MM-YY">
+    </mat-form-field>
+    <br>
+
+    <mat-label>Catégories : </mat-label>
+    <mat-form-field appearance="fill">
+      <mat-label>Choisir une catégorie</mat-label>
+      <mat-select >
+        <mat-option *ngFor="let categorie of listCategorie">{{ categorie.libCategorie }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <br>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Sujet</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <br>
+    <mat-form-field class="example-full-width">
+      <mat-label>Exprime toi !</mat-label>
+      <textarea matInput placeholder="It makes me feel..."></textarea>
+    </mat-form-field>
+
+    <section>
+      <div class="example-button-row">
+        <button mat-raised-button color="primary">Envoyer</button>
+      </div>
+    </section>
+
+  </form>
+</div>
+
