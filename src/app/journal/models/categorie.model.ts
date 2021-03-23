@@ -1,4 +1,7 @@
+import {Field} from './field.model';
+
 export interface Categorie {
-  idCategorie: string;
-  libCategorie: string;
+  id: number;
+  name: string;
+  fieldList: Field[];
 }
