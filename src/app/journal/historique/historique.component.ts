@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./historique.component.scss']
 })
 export class HistoriqueComponent implements OnInit {
-  myDataArray: any;
+
 
   constructor() { }
 
