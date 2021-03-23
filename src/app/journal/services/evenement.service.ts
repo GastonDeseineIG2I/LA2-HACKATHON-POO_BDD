@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class EvenementService {
 
   private evenementUrl ='';
-  constructor(private httpClient: HttpClient) { }
+  constructor() { }
 
 
 
