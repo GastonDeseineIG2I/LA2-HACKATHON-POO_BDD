@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {Evenement} from '../models/evenement.model';
 
 @Component({
   selector: 'hackathon-evenement',
@@ -9,9 +8,9 @@ import {Evenement} from '../models/evenement.model';
 export class EvenementComponent implements OnInit {
   listCategorie: any;
 
-  //TODO Une fonction qui me retourne les categories
+  // TODO Une fonction qui me retourne les categories
   listChamps: any;
-  //TODO Une fonction qui me retourne les champs d'une catégorie
+  // TODO Une fonction qui me retourne les champs d'une catégorie
 
 
   constructor() { }
