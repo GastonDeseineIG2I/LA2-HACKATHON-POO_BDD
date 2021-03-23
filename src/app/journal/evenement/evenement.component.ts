@@ -10,7 +10,8 @@ export class EvenementComponent implements OnInit {
   listCategorie: any;
 
   //TODO Une fonction qui me retourne les categories
-
+  listChamps: any;
+  //TODO Une fonction qui me retourne les champs d'une catégorie
 
 
   constructor() { }

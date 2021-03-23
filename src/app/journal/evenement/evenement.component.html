@@ -24,15 +24,14 @@
     </mat-form-field>
     <br>
 
+
+    <div *ngFor="let champs of listChamps">
       <mat-form-field class="example-full-width">
-        <mat-label>Sujet</mat-label>
-        <input matInput>
+        <mat-label>{{champs.nomChamp}}</mat-label>
+        <input type ="{{champs.nature}}" matInput name="{{champs.nomChamp}}">
       </mat-form-field>
+    </div>
       <br>
-    <mat-form-field class="example-full-width">
-      <mat-label>Exprime toi !</mat-label>
-      <textarea matInput placeholder="It makes me feel..."></textarea>
-    </mat-form-field>
 
     <section>
       <div class="example-button-row">
